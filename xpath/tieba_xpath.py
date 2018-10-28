@@ -1,5 +1,5 @@
 import os
-import urllib.request
+import Youdao.request
 from lxml import etree
 class Spider:
     def __init__(self):
@@ -17,7 +17,7 @@ class Spider:
         for page in range(self.beginPage,self.endPage+1):
             pn = (page-1)*50 # page number
             word = {'pn':pn,'kw':self.tiebaName}
-            word = urllib.parse.urlencode(word)
+            word = Youdao.parse.urlencode(word)
             myUrl = self.url + '?' + word
 
             # 示例：http://tieba.baidu.com/f? kw=%E7%BE%8E%E5%A5%B3 & pn=50
@@ -28,8 +28,8 @@ class Spider:
     # 读取页面内容
     def loadPage(self,url):
         print(url)
-        req = urllib.request.Request(url,headers=self.ua_header)
-        html = urllib.request.urlopen(req).read()
+        req = Youdao.request.Request(url, headers=self.ua_header)
+        html = Youdao.request.urlopen(req).read()
         print(html)
         # 解析html为HTML文档
         selector = etree.HTML(html)
@@ -58,8 +58,8 @@ class Spider:
 
     # 获取图片
     def loadImages(self,link):
-        req = urllib.request.Request(link,headers=self.ua_header)
-        html = urllib.request.urlopen(req).read()
+        req = Youdao.request.Request(link, headers=self.ua_header)
+        html = Youdao.request.urlopen(req).read()
 
         selector = etree.HTML(html)
 
@@ -78,7 +78,7 @@ class Spider:
 
         # 1.打开文件，返回一个对象
         with open('./images/'+str(self.userName)+'.png','wb') as f:
-            images = urllib.request.urlopen(imagesLink).read()
+            images = Youdao.request.urlopen(imagesLink).read()
             f.write(images)
         self.userName = self.userName+1
 
