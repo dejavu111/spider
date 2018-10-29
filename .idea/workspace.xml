@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20b65ae-bc21-4e17-9f9b-d665f2d44bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Youdao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youdao/translate.py" afterDir="false" />
+    <list default="true" id="f20b65ae-bc21-4e17-9f9b-d665f2d44bae" name="Default Changelist" comment="有道翻译">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xpath/tieba_xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/xpath/tieba_xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/translate.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/warn-translate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/build/translate/xref-translate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youdao/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Youdao/translate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +26,21 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spider$xpath_li.coverage" NAME="xpath_li Coverage Results" MODIFIED="1540210392454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xpath" />
+    <SUITE FILE_PATH="coverage/spider$1.coverage" NAME="1 Coverage Results" MODIFIED="1540792096895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youdao" />
     <SUITE FILE_PATH="coverage/spider$lxml_parse.coverage" NAME="lxml_parse Coverage Results" MODIFIED="1540198267822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xpath" />
     <SUITE FILE_PATH="coverage/spider$beautifulsoup4_test.coverage" NAME="beautifulsoup4_test Coverage Results" MODIFIED="1540552919435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeautifulSoup" />
     <SUITE FILE_PATH="coverage/spider$itcast.coverage" NAME="itcast Coverage Results" MODIFIED="1539868313363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcast/ITcast/spiders" />
     <SUITE FILE_PATH="coverage/spider$tieba_xpath.coverage" NAME="tieba_xpath Coverage Results" MODIFIED="1540219693144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xpath" />
-    <SUITE FILE_PATH="coverage/spider$translate.coverage" NAME="translate Coverage Results" MODIFIED="1540710663293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youdao" />
+    <SUITE FILE_PATH="coverage/spider$translate.coverage" NAME="translate Coverage Results" MODIFIED="1540791226923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youdao" />
     <SUITE FILE_PATH="coverage/spider$test.coverage" NAME="test Coverage Results" MODIFIED="1540198116977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xpath" />
+    <SUITE FILE_PATH="coverage/spider$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1540791809742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youdao" />
     <SUITE FILE_PATH="coverage/spider$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1540013809058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcast/ITcast" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1672980371">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
@@ -35,9 +48,10 @@
           <entry key="project.open.time.36" value="3" />
           <entry key="project.open.time.40" value="3" />
           <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.70" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,8 +61,8 @@
           <entry key="html" value="1" />
           <entry key="jpg" value="1" />
           <entry key="json" value="21" />
-          <entry key="py" value="95" />
-          <entry key="spec" value="1" />
+          <entry key="py" value="102" />
+          <entry key="spec" value="2" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -59,21 +73,23 @@
           <entry key="Image" value="1" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="21" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="95" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="102" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7415" />
-          <entry key="txt" value="24" />
+          <entry key="Python Console" value="2" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="7826" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="7415" />
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Python" value="7828" />
         </counts>
       </usages-collector>
     </session>
@@ -81,22 +97,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeautifulSoup/beautifulsoup4_test.py">
+        <entry file="file://$PROJECT_DIR$/Youdao/translate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+            <state relative-caret-position="220">
+              <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+                <marker date="1540791708524" expanded="true" signature="1902:1911" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Youdao/translate.py">
+        <entry file="file://$PROJECT_DIR$/Youdao/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+            <state relative-caret-position="180">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
-                <element signature="e#24#39#0" expanded="true" />
-                <marker date="1540711472639" expanded="true" signature="1891:1900" ph="..." />
+                <element signature="e#197#239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +173,8 @@
         <option value="$PROJECT_DIR$/BeautifulSoup/beautifulsoup4_test.py" />
         <option value="$PROJECT_DIR$/urllib/translate.py" />
         <option value="$PROJECT_DIR$/Youdao/translate.py" />
+        <option value="$PROJECT_DIR$/Youdao/GUI.py" />
+        <option value="$PROJECT_DIR$/Youdao/1.py" />
       </list>
     </option>
   </component>
@@ -163,11 +184,28 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1271" />
     <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,6 +221,11 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +267,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.translate">
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\python\spider\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Youdao" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python\spider\Youdao\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\python\spider\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Youdao" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Youdao/GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="beautifulsoup4_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,28 +326,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoup/beautifulsoup4_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lxml_parse" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xpath" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xpath/lxml_parse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,16 +356,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="translate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="translate" type="PythonConfigurationType" factoryName="Python">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\python\spider\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Youdao" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -336,19 +401,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.lxml_parse" />
+      <item itemvalue="Python.translate" />
       <item itemvalue="Python.xpath_li" />
       <item itemvalue="Python.tieba_xpath" />
       <item itemvalue="Python.beautifulsoup4_test" />
-      <item itemvalue="Python.translate" />
+      <item itemvalue="Python.GUI" />
+      <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.translate" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.GUI" />
         <item itemvalue="Python.beautifulsoup4_test" />
         <item itemvalue="Python.tieba_xpath" />
         <item itemvalue="Python.xpath_li" />
-        <item itemvalue="Python.lxml_parse" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540704074769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="有道翻译">
+      <created>1540711629575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540711629575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -383,10 +456,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1307" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="10" y="20" width="1271" height="728" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17802727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18331957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,13 +467,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32872504" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3276923" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49959904" visible="true" weight="0.3246154" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49959904" visible="true" weight="0.35521886" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040096" side_tool="true" weight="0.32872504" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32872504" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3276923" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -439,21 +511,51 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="beautifulsoup" />
-    <option name="LAST_COMMIT_MESSAGE" value="beautifulsoup" />
+    <MESSAGE value="有道翻译" />
+    <option name="LAST_COMMIT_MESSAGE" value="有道翻译" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3316">
-          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1739766194/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -673,23 +775,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BeautifulSoup/beautifulsoup4_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Youdao/translate.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/win32com/servers/PythonTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350" />
+        <state relative-caret-position="100">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youdao/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="28" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Youdao/translate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        <state relative-caret-position="220">
+          <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
-            <marker date="1540711472639" expanded="true" signature="1891:1900" ph="..." />
+            <marker date="1540791708524" expanded="true" signature="1902:1911" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youdao/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#197#239#0" expanded="true" />
           </folding>
         </state>
       </provider>

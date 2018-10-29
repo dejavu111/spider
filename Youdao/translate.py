@@ -4,6 +4,7 @@ import hashlib
 import time
 import json
 import random
+import sys
 
 '''
 var r = function(e) {
@@ -38,7 +39,7 @@ t.recordUpdate = function(e) {
 # salt: t, -->"" + ((new Date).getTime() + parseInt(10 * Math.random(), 10))
 # sign: n.md5("fanyideskweb" + e + t + "6x(ZHw]mwzX#u0V7@yfwK") -->n.md5("fanyideskweb" + e + salt + "6x(ZHw]mwzX#u0V7@yfwK")
 # e为要翻译的内容
-class Youdao(object):
+class YouDao(object):
     def __init__(self, msg):
         self.msg = msg
         self.url = 'http://fanyi.youdao.com/translate_o?smartresult=dict&smartresult=rule'
@@ -86,18 +87,17 @@ class Youdao(object):
         response = requests.post(self.url,data=data,headers=headers)
         html = response.text
         w = json.loads(html)
-        print(w["translateResult"][0][0]["tgt"])
+        result = str(w["translateResult"][0][0]["tgt"])+'\n'
         if 'smartResult' in w:
             results = [x for x in w["smartResult"]["entries"]]
             for i in results:
-                print(i)
+                result += str(i)
+
+        return result
 
 
 
-if __name__ == '__main__':
-    while True:
-        words = input('输入要翻译的内容：(输入0退出)')
-        if words=='0':
-            break
-        y = Youdao(words)
-        y.get_result()
+
+
+
+
